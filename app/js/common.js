@@ -1,7 +1,8 @@
 $(function() {
+
 //-------------------about-slider----------------------
   var swiper = new Swiper('.about__slider', {
-    slidesPerView: 1,
+    slidesPerView: 2,
     slidesPerColumn: 2,
     spaceBetween: 30,
     navigation: {
@@ -100,3 +101,6 @@ $(function() {
 $(window).on('load', function(){
   $('.preloader').delay(1000).fadeOut('slow');
 });
+
+//-------------------------------------scroll-magic---------------------------------
+
