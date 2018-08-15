@@ -2,9 +2,30 @@
 @media only screen and (max-width : 1200px)
 
 	.header
-
+			li
+				margin-right: 25px
+	.header__btn
+		display: none
+		&_responsive
+			display: block
+			width: 40px
+			height: 40px
+			border: transparent 1px solid
+			border-radius: 25px
+			top: 100px
+			right: -10px
+			&:hover
+				color: $text
+				background-color: rgba(255, 255, 255, .2)
+				box-shadow: 0 0 0 rgba(0, 0, 0, .2)
+			&:focus
+				color: $text
+				background-color: rgba(0, 0, 0, .2)
+				box-shadow: 0 0 0 rgba(0, 0, 0, .2)
 
 @media only screen and (max-width : 992px)
+	.header__btn_responsive
+		margin-right: 50px
 	#thanks
 		padding: 40px
 
@@ -45,7 +66,6 @@
 				transition: all .3s
 				position: absolute
 				bottom: 0
-				width: 80%
 				height: 1px
 				background-color: $accent
 				z-index: -1
@@ -65,25 +85,41 @@
 	.hamburger
 		display: block
 		z-index: 1001
-		right: 15px
-
+		right: 0
+		bottom: 0
 	.hamburger-box
 		right: 0
+	.header__btn
+		margin-right: 200px
 
-
-
+	.header-content
+		h1
+			font-size: 54px
 @media only screen and (max-width : 767px)
-	.header
-
+	.header-content
+		padding-top: 200px
+		h1
+			font-size: 40px
+	.header-content__list
+		display: flex
+		flex-direction: column
+	.competence__list
+		display: flex
+		flex-direction: column
 @media only screen and (max-width : 576px)
-	.header
-
+	.header-content
+		padding-top: 160px
+		h1
+			font-size: 36px
 @media only screen and (max-width : 480px)
+	.header__btn_responsive
+		display: none
+	.header-content
+		padding-top: 120px
+		h1
+			font-size: 24px
+@media only screen and (max-width : 320px)
 	.header
-
-
-
-
 
 
 

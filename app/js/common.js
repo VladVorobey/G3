@@ -1,7 +1,7 @@
 $(function() {
 //-------------------about-slider----------------------
   var swiper = new Swiper('.about__slider', {
-    slidesPerView: 2,
+    slidesPerView: 1,
     slidesPerColumn: 2,
     spaceBetween: 30,
     navigation: {

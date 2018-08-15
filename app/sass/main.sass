@@ -52,7 +52,12 @@ html
 			color: $text
 			background-color: #fff
 			box-shadow: 0 0 0 rgba(0, 0, 0, .2)
-
+		&_responsive
+			display: none
+			img
+				width: 25px
+				height: 25px
+				transform: translate(6px,6px)
 	&-content
 		background-image: url(../img/header-bg.jpg)
 		background-position: center
@@ -218,8 +223,6 @@ h1
 		margin: 0 100px
 
 	&__item
-		width: 28%
-		margin-bottom: 40px
 		&:nth-child(2)
 			.competence__img_svg
 				transform: rotate(-40deg)
@@ -347,7 +350,7 @@ h1
 	z-index: 5
 .triangle
 	position: absolute
-
+	display: inline
 	&-img
 		z-index: 10
 	&-one
@@ -356,12 +359,14 @@ h1
 		width: 49%
 		height: 49%
 		transform: rotate(170deg)
+		filter: drop-shadow(0 0 0.75rem crimson);
 	&-two
 		left: 250px
 		bottom: -40px
 		width: 250px
 		height: 200px
 		transform: rotate(60deg)
+		position: absolute
 	&-white
 		background: url("../img/triangle-white.svg") no-repeat center
 		&_one
