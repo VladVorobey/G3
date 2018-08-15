@@ -204,27 +204,28 @@ h1
 	padding-top: 70px
 	padding-bottom: 30px
 	text-align: center
-
+	z-index: 99
 	&__sub-title
 		font-size: 16px
 		color: $title
 		margin-bottom: 25px
-
+		z-index: 99
 	h3
 		font-family: $title
 		font-size: 24px
 		font-weight: 300
 		line-height: 1
 		margin-bottom: 40px
-
+		z-index: 99
 	&__list
 		display: flex
 		flex-direction: row
 		justify-content: space-around
 		flex-wrap: wrap
 		margin: 0 100px
-
+		z-index: 99
 	&__item
+		z-index: 99
 		&:nth-child(2)
 			.competence__img_svg
 				transform: rotate(-40deg)
@@ -240,9 +241,10 @@ h1
 
 		p
 			color: #4c4c4c
-	
+		z-index: 99
 	&__img
 		position: relative
+		z-index: 99
 		margin-bottom: 20px
 		&_absolute
 			position: absolute
@@ -250,54 +252,58 @@ h1
 			bottom: 10px
 			width: 60px
 			height: 60px
-
+			z-index: 99
 	h4
 		font-size: 16px
 		color: $accent
 		margin-bottom: 10px
-
+		z-index: 99
 .company
 	padding-top: 115px
 	padding-bottom: 60px
 	background-color: #f5f9ff
+	z-index: 99
 
 	h2
 		margin-bottom: 45px
 		font-size: 30px
 		line-height: 1.2
+		z-index: 9999
 
 	h4
 		font-size: 18px
 		color: #212121
 		margin-bottom: 10px
+		z-index: 99
 
 	img
 		position: absolute
 		right: -20px
 		top: 0
-
+		z-index: 99
 	&__list
 		display: flex
 		flex-direction: row
 		justify-content: flex-start
 		flex-wrap: wrap
-
+		z-index: 99
 	&__item
 		position: relative
 		margin-top: 20px
+		z-index: 99
 		&:nth-child(3)
 			margin-right: 0
-
+			z-index: 99
 .services
 	padding-top: 100px
 	padding-bottom: 170px
 	background-color: #f9fcff
-
+	z-index: 99
 	&__container
 		display: flex
 		flex-direction: row
 		justify-content: space-around
-
+		z-index: 99
 	&__block
 		display: flex
 		flex-direction: column
@@ -306,6 +312,7 @@ h1
 		box-shadow: 0 50px 40px rgba(50, 149, 254, .04)
 		transition: all .3s
 		margin-top: 30px
+		z-index: 99
 		&:hover
 			box-shadow: 0 100px 100px rgba(50, 149, 254, .15)
 
@@ -315,6 +322,7 @@ h1
 		color: #4ca1fc
 		font-size: 16px
 		margin-bottom: 5px
+		z-index: 99
 		&::before
 			content: ""
 			position: absolute
@@ -329,35 +337,80 @@ h1
 		font-size: 18px
 		color: $accent
 		margin-bottom: 10px
-
+		z-index: 99
 	p
 		margin-bottom: 35px
 		line-height: 1.5
-
+		z-index: 99
 	&__btn
 		letter-spacing: 1px
 		max-width: 220px
 		margin-top: auto
 		padding: 0 50px
-
+		z-index: 99
 .triangle
 	position: absolute
 	display: inline
+	z-index: 1
+	opacity: .7
 	&-img
-		z-index: 10
-	&-one
+		z-index: 1
+	&_one
 		right: 0
 		bottom: -150px
-		width: 49%
-		height: 49%
+		width: 740px
+		height: 740px
 		transform: rotate(170deg)
-		filter: drop-shadow(0 0 0.75rem crimson);
+		filter: drop-shadow(30px 0 2rem #4ca1fc)
+		z-index: 1
 	&-two
 		left: 10vw
 		bottom: 50px
 		width: 250px
 		height: 200px
 		position: absolute
+		filter: drop-shadow(0 0 1rem #4ca1fc)
+		z-index: 1
+	&_three
+		right: 50px
+		bottom: 1000px
+		width: 75px
+		height: 75px
+		transform: rotate(-35deg)
+		filter: drop-shadow(30px 0 2rem #4ca1fc)
+		z-index: 1
+	&_four
+		left: 50px
+		top: 2400px
+		width: 200px
+		height: 200px
+		transform: rotate(0deg)
+		filter: drop-shadow(0 0 0.3rem #4ca1fc)
+		z-index: 1
+	&_five
+		left: 150px
+		top: 2700px
+		width: 70px
+		height: 70px
+		transform: rotate(-50deg)
+		filter: drop-shadow(0 0 .1rem #4ca1fc)
+		z-index: 1
+	&_six
+		right: 500px
+		top: 2400px
+		width: 70px
+		height: 70px
+		transform: rotate(50deg)
+		filter: drop-shadow(0 0 .1rem #4ca1fc)
+		z-index: 1
+	&_seven
+		left: 200px
+		top: 1000px
+		width: 70px
+		height: 70px
+		transform: rotate(-110deg)
+		filter: drop-shadow(0 0 .1rem #4ca1fc)
+		z-index: 1
 	&-white
 		background: url("../img/triangle-white.svg") no-repeat center
 		&_one

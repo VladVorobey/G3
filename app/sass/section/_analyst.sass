@@ -1,5 +1,6 @@
 .analyst
 	background-color: rgb(245, 249, 255)
+	text-align: center
 	&__title
 		text-align: center
 		font-size: 30px
@@ -7,31 +8,29 @@
 		color: $text-color_analyst-title
 		padding: 115px 0 50px
 	&__item
-		text-align: center
-		margin-bottom: 50px
+		&:nth-child(2)
+			.analyst__img_svg
+				transform: rotate(-40deg)
+		&:nth-child(3)
+			.analyst__img_svg
+				transform: rotate(-20deg)
 	&__img
 		position: relative
 		margin-bottom: 20px
-		width: 100%
-		min-height: 100px
-		&_svg
-			position: absolute
-			width: 140px
-			height: 120px
-			bottom: 0
-			left: 40px
 		&_absolute
 			position: absolute
+			right: 38%
 			bottom: 10px
-			left: 90px
-			z-index: 10
 			width: 60px
 			height: 60px
-		.img_two
-			transform: rotate(100deg)
+		&_svg
+			width: 140px
+			height: 120px
+
 	p
 		font-size: 14px
 		font-family: "gilroy", sans-serif
 		font-weight: 800
 		color: $text-color_analyst-p
+
 

@@ -107,7 +107,16 @@
 		&__item
 			display: flex
 			flex-direction: column
-
+	.footer
+		background: rgb(245, 249, 255)
+		.logo__elem
+			text-align: center
+			.logo
+				padding: 0
+		&__nav
+			display: none
+		.triangle
+			display: none
 @media only screen and (max-width : 767px)
 	.header-content
 		padding-top: 200px
@@ -122,11 +131,21 @@
 	.company
 		&__item
 			margin-top: 40px
+	.triangle_one
+			width: 400px
+			height: 400px
 @media only screen and (max-width : 576px)
 	.header-content
 		padding-top: 160px
 		h1
 			font-size: 36px
+	.analyst__item
+		p
+			width: 60%
+			transform: translateX(35%)
+	.analyst__title
+		font-size: 24px
+		padding-top: 50px
 @media only screen and (max-width : 480px)
 	.header__btn_responsive
 		display: none
@@ -144,8 +163,15 @@
 				font-size: 16px
 	.services
 		padding: 50px 0
-
-
+	.contacts
+		.form
+			margin: 100px auto 0
+			width: 300px
+	.footer
+		&__nav
+			display: none
+		.triangle
+			display: none
 
 
 
