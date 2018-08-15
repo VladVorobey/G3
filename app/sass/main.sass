@@ -2,7 +2,9 @@
 @import "base"
 @import "page"
 @import "vars"
-
+@import "section/analyst"
+@import "section/contacts"
+@import "section/footer"
 html
 	width: 100%
 	overflow-x: hidden
@@ -282,9 +284,7 @@ h1
 
 	&__item
 		position: relative
-		width: 30%
-		margin-right: 5%
-		margin-bottom: 50px
+		margin-top: 20px
 		&:nth-child(3)
 			margin-right: 0
 
@@ -301,11 +301,11 @@ h1
 	&__block
 		display: flex
 		flex-direction: column
-		width: 42%
 		padding: 25px 40px
 		background-color: #fff
 		box-shadow: 0 50px 40px rgba(50, 149, 254, .04)
 		transition: all .3s
+		margin-top: 30px
 		&:hover
 			box-shadow: 0 100px 100px rgba(50, 149, 254, .15)
 
@@ -340,14 +340,6 @@ h1
 		margin-top: auto
 		padding: 0 50px
 
-
-
-@import "section/analyst" // add section
-@import "section/contacts"
-@import "section/footer"
-
-.test__blok
-	z-index: 5
 .triangle
 	position: absolute
 	display: inline
@@ -361,18 +353,17 @@ h1
 		transform: rotate(170deg)
 		filter: drop-shadow(0 0 0.75rem crimson);
 	&-two
-		left: 250px
-		bottom: -40px
+		left: 10vw
+		bottom: 50px
 		width: 250px
 		height: 200px
-		transform: rotate(60deg)
 		position: absolute
 	&-white
 		background: url("../img/triangle-white.svg") no-repeat center
 		&_one
 			opacity: 0.4
 			left: 33%
-			bottom: 0
+			bottom: 200px
 			width: 300px
 			height: 150px
 			transform: rotate(130deg)
@@ -385,7 +376,7 @@ h1
 			z-index: 10
 		&_three
 			right: 300px
-			bottom: 0
+			bottom: 200px
 			width: 100px
 			height: 100px
 			z-index: 10

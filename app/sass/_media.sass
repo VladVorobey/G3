@@ -1,3 +1,11 @@
+@media only screen and (min-width: 1200px)
+	.services__block
+		min-width: 475px
+@media only screen and (min-width: 992px)
+	.services__block
+		min-width: 400px
+		min-height: 425px
+
 
 @media only screen and (max-width : 1200px)
 
@@ -95,6 +103,11 @@
 	.header-content
 		h1
 			font-size: 54px
+	.analyst
+		&__item
+			display: flex
+			flex-direction: column
+
 @media only screen and (max-width : 767px)
 	.header-content
 		padding-top: 200px
@@ -106,6 +119,9 @@
 	.competence__list
 		display: flex
 		flex-direction: column
+	.company
+		&__item
+			margin-top: 40px
 @media only screen and (max-width : 576px)
 	.header-content
 		padding-top: 160px
@@ -118,8 +134,17 @@
 		padding-top: 120px
 		h1
 			font-size: 24px
-@media only screen and (max-width : 320px)
-	.header
+	.company
+		padding-top: 50px
+		h2
+			font-size: 24px
+		&__item
+			margin-top: 30px
+			h4
+				font-size: 16px
+	.services
+		padding: 50px 0
+
 
 
 
