@@ -1,0 +1,63 @@
+.footer
+	position: relative
+	overflow: hidden
+	z-index: 1
+	&__nav
+		background: #2d85e3
+		min-height: 109px
+		position: relative
+		z-index: 0
+		&:before
+			content: ''
+			position: absolute
+			background: #2d85e3
+			width: 100px
+			height: 100%
+			border-radius: 143px 0 0 0
+			top: 0
+			left: -98px
+			z-index: -1
+		&:after
+			content: ''
+			position: absolute
+			background: #2d85e3
+			width: 100%
+			height: 100%
+			top: 0
+			left: 80%
+			z-index: -1
+		&_menu
+			z-index: 30
+			width: 100%
+			.navigation
+
+			li
+				display: inline-block
+				margin: 30px 15px 20px
+				&:last-child
+					border: 1px solid #ffffff
+					border-radius: 50px
+					padding: 10px 20px
+					position: absolute
+					transition: all .3s
+					font-weight: 600
+					&:hover
+						transition: all .3s
+						box-shadow: 0 10px 10px 4px rgba(250, 250, 250, 0.1)
+						background: #ffffff
+						border: 1px solid #2d85e3
+						a
+							color: #2d85e3
+			a
+				color: #fff
+				font-size: 14px
+				z-index: 30
+	&__copyright
+		transform: translateX(25%)
+		opacity: .5
+		color: #fff
+	.logo__elem
+		.logo
+			position: relative
+			padding-top: 35px
+			z-index: 30
