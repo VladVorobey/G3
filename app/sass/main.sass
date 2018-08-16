@@ -320,13 +320,23 @@ h1
 		display: flex
 		flex-direction: column
 		padding: 23px 30px 38px
-		background-color: #fff
+
 		box-shadow: 0 50px 40px rgba(50, 149, 254, .04)
 		transition: all .3s
 		margin-top: 30px
 		z-index: 99!important
+		position: relative
+		&_first
+			background: #fff url("../img/svg/blok-triangle-1.svg") bottom left no-repeat
+		&_second
+			background: #fff url("../img/svg/blok-triangle-2.svg") top right no-repeat
 		&:hover
 			box-shadow: 0 100px 100px rgba(50, 149, 254, .15)
+		&:after
+			content: ''
+			position: absolute
+			bottom: 0
+			left: 0
 
 	&__sub-title
 		position: relative
@@ -375,13 +385,6 @@ h1
 		width: 750px
 		height: 350px
 		position: absolute
-	&_three
-		right: 50px
-		bottom: 1000px
-		width: 75px
-		height: 75px
-		transform: rotate(-35deg)
-		filter: drop-shadow(30px 0 2rem #4ca1fc)
 	&_four
 		left: -250px
 		top: 2300px
@@ -395,19 +398,11 @@ h1
 		transform: rotate(0deg)
 
 	&_six
-		right: 500px
+		right: 400px
 		top: 2400px
-		width: 70px
-		height: 70px
-		transform: rotate(50deg)
-		filter: drop-shadow(0 0 .1rem #4ca1fc)
 	&_seven
 		left: 200px
-		top: 1000px
-		width: 70px
-		height: 70px
-		transform: rotate(-110deg)
-		filter: drop-shadow(0 0 .1rem #4ca1fc)
+		top: 1040px
 	&-white
 		&_one
 			left: 400px
@@ -428,5 +423,16 @@ h1
 			width: 150px
 			height: 150px
 			transform: rotate(180deg)
-
+		&_right-top
+			right: 0
+			top: 1050px
+		&_right-top-2
+			right: 0
+			top: 1900px
+		&_right-bottom
+			right: 0
+			bottom: 900px
+		&_left-center
+			left: 0
+			top: 1400px
 @import "media" // Always at the end

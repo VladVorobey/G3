@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4ca1fc;
+        filter: url(#filter);
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #4ca1fc;
+        stroke-width: 1px;
+        opacity: 0.25;
+      }
+    </style>
+    <filter id="filter" x="-17" y="-7" width="124" height="119" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="15" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="5.477"/>
+      <feFlood result="flood" flood-color="#3295fe" flood-opacity="0.38"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Фигура_4_копия_15" data-name="Фигура 4 копия 15" class="cls-1" d="M12.383,47.841L27.439,13.006C36.185,0.5,47.587,14.2,47.587,14.2L74.8,50.347C82.161,65.61,66.942,66.2,66.942,66.2L25.178,63.931C10.316,60.942,12.3,48.326,12.3,48.326Z"/>
+  <path id="Фигура_4_копия_16" data-name="Фигура 4 копия 16" class="cls-2" d="M20.2,66.769L35.34,32.214c8.8-12.4,20.266,1.183,20.266,1.183L82.978,69.256c7.4,15.14-7.905,15.731-7.905,15.731L33.066,82.731c-14.949-2.965-12.958-15.48-12.958-15.48Z"/>
+</svg>
