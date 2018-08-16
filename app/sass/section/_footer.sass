@@ -1,12 +1,9 @@
 .footer
 	position: relative
-
-	z-index: 1
 	&__nav
 		background: #2d85e3
 		min-height: 109px
 		position: relative
-		z-index: 25
 		&:before
 			content: ''
 			position: absolute
@@ -30,33 +27,32 @@
 			z-index: 30
 			width: 100%
 			.navigation
-
-			li
-				display: inline-block
-				margin: 30px 15px 20px
-				&:last-child
-					border: 1px solid #ffffff
-					border-radius: 50px
-					padding: 10px 20px
-					position: absolute
-					transition: all .3s
-					font-weight: 600
-					cursor: pointer
-					letter-spacing: 1px;
-					&:hover
+				li
+					display: inline-block
+					margin: 30px 15px 20px
+					&:last-child
+						border: 1px solid #ffffff
+						border-radius: 50px
+						padding: 10px 20px
+						position: absolute
 						transition: all .3s
-						box-shadow: 0 10px 10px 4px rgba(250, 250, 250, 0.1)
-						background: #ffffff
-						border: 1px solid #2d85e3
-						a
-							color: #2d85e3
-							display: inline-block
-							letter-spacing: 1px;
+						font-weight: 600
+						cursor: pointer
+						letter-spacing: 1px;
+						&:hover
+							transition: all .3s
+							box-shadow: 0 10px 10px 4px rgba(250, 250, 250, 0.1)
+							background: #ffffff
+							border: 1px solid #2d85e3
+							a
+								color: #2d85e3
+								display: inline-block
+								letter-spacing: 1px;
 			a
 				color: #fff
 				font-size: 14px
-				z-index: 30
 				display: inline-block
+				z-index: 999!important
 	&__copyright
 		transform: translateX(25%)
 		opacity: .5

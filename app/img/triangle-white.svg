@@ -1,1 +1,53 @@
-<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100"><defs><style>.cls-1{fill:url(#Безымянный_градиент_12);}</style><linearGradient id="Безымянный_градиент_12" x1="-112.81" y1="555.13" x2="-126.88" y2="642.36" gradientTransform="matrix(-1, -0.05, 0.05, -1, -93.85, 643.74)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.21" stop-color="#fff" stop-opacity="0.02"/><stop offset="0.45" stop-color="#fff" stop-opacity="0.08"/><stop offset="0.72" stop-color="#fff" stop-opacity="0.17"/><stop offset="1" stop-color="#fff" stop-opacity="0.3"/></linearGradient></defs><title>Монтажная область 1</title><path id="Фигура_4_копия_5" data-name="Фигура 4 копия 5" class="cls-1" d="M75.07,90.27l-49.53.19C6,86.52,16.44,65.73,16.44,65.73l29-51.43c14.42-16.77,23.08,1.12,23.08,1.12L87.64,66.57C91.83,85.92,75.7,90.14,75.7,90.14Z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 625 625" style="enable-background:new 0 0 625 625;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0;}
+	.st1{fill:#3295FE;}
+	.st2{fill:url(#SVGID_1_);}
+	.st3{fill:none;stroke:#CFE5FF;}
+	.st4{fill:url(#SVGID_2_);}
+	.st5{fill:#FFFFFF;}
+</style>
+<g id="El2">
+	<g id="Фигура_4_копия_4_4_">
+		<g class="st0">
+			<path class="st1" d="M140.2,275.3L318.1,41.4c89-77.8,149.2,46.3,149.2,46.3L604.7,410c27,128.4-88.5,104.6-88.5,104.6L206.5,420
+				c-106.2-50-67.8-141.2-67.8-141.2L140.2,275.3z"/>
+		</g>
+		<g>
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="220.4561" y1="123.2799" x2="557.8127" y2="525.3259">
+				<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+				<stop  offset="1" style="stop-color:#FFFFFF"/>
+			</linearGradient>
+			<path class="st2" d="M140.2,275.3L318.1,41.4c89-77.8,149.2,46.3,149.2,46.3L604.7,410c27,128.4-88.5,104.6-88.5,104.6L206.5,420
+				c-106.2-50-67.8-141.2-67.8-141.2L140.2,275.3z"/>
+		</g>
+	</g>
+	<path id="Фигура_4_копия_4_3_" class="st3" d="M25.8,330.5l206.1-271c103.1-90.1,172.9,53.7,172.9,53.7L564,486.5
+		c31.2,148.7-98.6,121.2-98.6,121.2L106.6,498.1c-127-58-82.6-163.6-82.6-163.6L25.8,330.5z"/>
+	<g id="Фигура_4_копия_4_2_">
+		
+			<image style="overflow:visible;opacity:0.1;" width="658" height="682" xlink:href="AE9B8198.png"  transform="matrix(1 0 0 1 41 -55)">
+		</image>
+		<g>
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="220.4561" y1="123.2799" x2="557.8127" y2="525.3259">
+				<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.3"/>
+				<stop  offset="1" style="stop-color:#FFFFFF"/>
+			</linearGradient>
+			<path class="st4" d="M140.2,275.3L318.1,41.4c89-77.8,149.2,46.3,149.2,46.3L604.7,410c27,128.4-88.5,104.6-88.5,104.6L206.5,420
+				c-106.2-50-67.8-141.2-67.8-141.2L140.2,275.3z"/>
+		</g>
+	</g>
+	<g id="Фигура_4_копия_5_3_">
+		
+			<image style="overflow:visible;opacity:0.4;" width="305" height="298" xlink:href="AE9B8199.png"  transform="matrix(1 0 0 1 337 360)">
+		</image>
+		<g>
+			<path class="st5" d="M452.4,526.9l1-37.9c3.5-14.9,19.1-6.4,19.1-6.4l38.7,23.4c12.5,11.4-1.4,17.6-1.4,17.6l-39.6,13.4
+				c-14.9,2.8-17.8-9.7-17.8-9.7L452.4,526.9z"/>
+		</g>
+	</g>
+</g>
+</svg>
