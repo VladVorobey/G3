@@ -101,7 +101,6 @@ html
 					top: 12px
 				&:last-child
 					margin-right: 0
-
 .nav
 	ul
 		display: flex
@@ -120,7 +119,6 @@ html
 			color: #fff
 		&:focus
 			color: #fff
-	&-active
 
 h1
 	font-size: 60px
@@ -205,7 +203,6 @@ h1
 	padding-top: 75px
 	padding-bottom: 70px
 	text-align: center
-	z-index: 99
 	position: relative
 	&__sub-title
 		font-size: 16px
@@ -217,7 +214,7 @@ h1
 		font-size: 24px
 		font-weight: 300
 		line-height: 1
-		margin-bottom: 15px
+		margin-bottom: 5px
 		z-index: 99
 	&__list
 		display: flex
@@ -227,20 +224,8 @@ h1
 		margin: 0 100px
 		z-index: 99
 	&__item
-		z-index: 99
-		margin-top: 25px
-		&:nth-child(2)
-			.competence__img_svg
-				transform: rotate(-40deg)
-		&:nth-child(3)
-			.competence__img_svg
-				transform: rotate(-20deg)
-		&:nth-child(5)
-			.competence__img_svg
-				transform: rotate(-40deg)
-		&:nth-child(6)
-			.competence__img_svg
-				transform: rotate(-20deg)
+		margin-top: 35px
+		position: relative
 
 		p
 			color: #4c4c4c
@@ -248,14 +233,23 @@ h1
 	&__img
 		position: relative
 		z-index: 99
-		margin-bottom: 25px
+		margin-bottom: 15px
+		display: block
 		&_absolute
 			position: absolute
-			right: 36%
-			bottom: 5px
+			right: 33%
+			bottom: 8px
 			width: 60px
 			height: 60px
 			z-index: 99
+		&_svg
+			width: 150px
+			height: 130px
+			&_rotate-one
+				transform: rotate(-30deg)
+			&_rotate-four
+				transform: rotate(-30deg)
+
 	h4
 		font-size: 16px
 		color: $accent
@@ -380,7 +374,7 @@ h1
 		height: 740px
 		filter: drop-shadow(0 0 1rem #4ca1fc)
 	&-two
-		left: -150px
+		left: -250px
 		bottom: 127.5px
 		width: 750px
 		height: 350px

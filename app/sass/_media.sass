@@ -1,10 +1,11 @@
 @media only screen and (min-width: 1200px)
+
 	.services__block
 		min-width: 475px
 @media only screen and (min-width: 992px)
 	.services__block
 		min-width: 400px
-		min-height: 435px
+		min-height: 445px
 
 
 @media only screen and (max-width : 1200px)
@@ -30,8 +31,11 @@
 				color: $text
 				background-color: rgba(0, 0, 0, .2)
 				box-shadow: 0 0 0 rgba(0, 0, 0, .2)
-
+	.triangle-two
+		left: -300px
 @media only screen and (max-width : 992px)
+	.triangle
+		display: none
 	.header__btn_responsive
 		margin-right: 50px
 	#thanks
@@ -67,6 +71,7 @@
 		a
 			color: #fff
 			display: block
+			font-size: 16px
 			&::before
 				content: ''
 				width: 0
@@ -79,16 +84,19 @@
 				z-index: -1
 
 			&:hover
-				color: $accent
+				color: #fff
 				text-decoration: none
 				&::before
 					transform: scale(1)
 
 			&:focus
-				color: $accent
+				color: #4ca1fc
 				text-decoration: none
+				transform: translateX(3px)
 				&::before
 					transform: scale(1)
+					content: ''
+
 		&-active
 			top: 55px
 			right: 0
@@ -173,7 +181,9 @@
 			display: none
 		.triangle
 			display: none
-
-
-
+	.about, .competence ,.company__title ,.services__container
+		padding-top: 50px
+		padding-bottom: 25px
+	.contacts
+		min-height: 500px
 
