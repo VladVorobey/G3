@@ -2,43 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f031e901-1714-4370-893a-75d127a155da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/1076812C.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/1DFE7E32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/2255854A.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/7DDC386A.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/7DDC386E.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/8C04ECB2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/8C04ECB4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/8C04ECB5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/8C04ECB7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/AAE330DF._t_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/AE9B8198.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/AE9B8199.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/EBA4FFCB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/bg-2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/bg-white-all.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/bg.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/bg2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/block-bg1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/footer-bg-triangle.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/footer-menu-tr1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/footer-menu-tr2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/footer-menu-tr3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/icon/telephone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/icon/telephone.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/result.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/send-mail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/support.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/talking.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/team.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/team.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/tell.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/triangle-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/website.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/section/_footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/section/_footer.sass" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -76,14 +40,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="416" />
+          <entry key="html" value="420" />
           <entry key="js" value="136" />
           <entry key="sass" value="1211" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="416" />
+          <entry key="HTML" value="420" />
           <entry key="JavaScript" value="136" />
           <entry key="Sass" value="1211" />
         </counts>
@@ -95,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="413" column="102" selection-start-line="413" selection-start-column="102" selection-end-line="413" selection-end-column="102" />
+            <state relative-caret-position="219">
+              <caret line="413" column="73" selection-start-line="413" selection-start-column="73" selection-end-line="413" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -268,12 +232,12 @@
       <updated>1534339718955</updated>
       <workItem from="1534339732413" duration="6292000" />
       <workItem from="1534401102651" duration="13775000" />
-      <workItem from="1534421452668" duration="1519000" />
+      <workItem from="1534421452668" duration="2114000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21586000" />
+    <option name="totallyTimeSpent" value="22181000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -372,8 +336,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="413" column="102" selection-start-line="413" selection-start-column="102" selection-end-line="413" selection-end-column="102" />
+        <state relative-caret-position="219">
+          <caret line="413" column="73" selection-start-line="413" selection-start-column="73" selection-end-line="413" selection-end-column="73" />
         </state>
       </provider>
     </entry>
