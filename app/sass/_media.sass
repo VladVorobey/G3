@@ -1,11 +1,5 @@
-@media only screen and (min-width: 1200px)
 
-	.services__block
-		min-width: 475px
-@media only screen and (min-width: 992px)
-	.services__block
-		min-width: 400px
-		min-height: 445px
+
 
 
 @media only screen and (max-width : 1200px)
@@ -70,6 +64,23 @@
 	.triangle-two
 		left: -300px
 @media only screen and (max-width : 992px)
+	.logo__elem
+		border-bottom: 1px solid #fff
+
+	.footer
+		&__copyright
+			transform: translateX(0)
+			text-align: center
+		&__nav
+			&:after
+				left: 100%
+			&_menu
+				a
+					padding: 0 15px
+				.navigation
+					padding: 10px
+					li
+						margin: 5px 0
 	.about
 		padding: 50px 0 30px
 	.competence
@@ -100,8 +111,8 @@
 		padding: 40px
 
 	.modal
-		width: 320px
-		padding: 40px
+		max-width: 320px
+		padding: 40px 30px
 
 	.nav
 		position: fixed
@@ -177,23 +188,49 @@
 			display: flex
 			flex-direction: column
 	.footer
-		border-top: 1px solid rgb(45, 133, 227)
+		background: rgb(45, 133, 227)
 		.logo__elem
 			text-align: center
 			.logo
 				padding: 15px 0
 				height: 100%
 				margin: 0
-		&__nav
-			display: none
+
+
 		.triangle
 			display: none
 @media only screen and (max-width : 767px)
+	.footer
+		&__nav_menu
+			.navigation
+					li
+						display: block
+						text-align: center
+						a
+							padding: 2px 20px
+							min-width: 200px
+							&:hover
+								border: 0
+							&:focus
+								border: 0
+						&:last-child
+							display: none
+		&__copyright
+			border-top: 1px solid #fff
+			padding: 3px 0
+			opacity: 1
+		.link
+			&:hover
+				&::before
+					transform: scale(0)
+			&:focus
+				&::before
+					transform: scale(0)
 	.analyst
 		&__title
 			font-size: 25px
 		&__text
-			font-size: 12px
+			font-size: 14px
 	.company
 		p
 			font-size: 12px
@@ -241,12 +278,17 @@
 			font-size: 36px
 	.analyst__item
 		p
-			width: 60%
-			transform: translateX(35%)
+			width: 80%
+			margin: 0 auto
 	.analyst__title
 		font-size: 24px
 		padding-top: 50px
 @media only screen and (max-width : 480px)
+	.header-content ,.services__block ,.contacts
+		.btn
+			display: block
+			max-width: 250px
+			margin: 0 auto
 	.analyst__title
 		font-size: 18px
 	.analyst__img_absolute
@@ -279,9 +321,9 @@
 		.form
 			margin: 100px auto 0
 			width: 300px
+			padding: 40px 15px
 	.footer
-		&__nav
-			display: none
+
 		.triangle
 			display: none
 	.about, .competence ,.company__title ,.services__container
@@ -289,4 +331,6 @@
 		padding-bottom: 25px
 	.contacts
 		min-height: 500px
-
+	.about,
+		h2
+			text-align: center
