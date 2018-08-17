@@ -1,14 +1,19 @@
 $(function() {
 
 //-------------------about-slider----------------------
+  var _slidesPerView = 2;
+
+  if (window.innerWidth < 767)
+      _slidesPerView = 1;
+
   var swiper = new Swiper('.about__slider', {
-    slidesPerView: 2,
-    slidesPerColumn: 2,
-    spaceBetween: 30,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
+      slidesPerView: _slidesPerView,
+      slidesPerColumn: 2,
+      spaceBetween: 30,
+      navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+      },
   });
 
 //------------------------------гамбургер-----------------------------
