@@ -65,7 +65,7 @@
 		left: -300px
 @media only screen and (max-width : 992px)
 	.logo__elem
-		border-bottom: 1px solid #fff
+		border-bottom: 1px solid rgba( 255, 255, 255, .2)
 
 	.footer
 		&__copyright
@@ -78,7 +78,7 @@
 				a
 					padding: 0 15px
 				.navigation
-					padding: 10px
+					padding: 15px
 					li
 						margin: 5px 0
 	.about
@@ -216,8 +216,8 @@
 						&:last-child
 							display: none
 		&__copyright
-			border-top: 1px solid #fff
-			padding: 3px 0
+			border-top: 1px solid rgba( 255, 255, 255, .2)
+			padding: 8px 0
 			opacity: 1
 		.link
 			&:hover
@@ -284,7 +284,14 @@
 		font-size: 24px
 		padding-top: 50px
 @media only screen and (max-width : 480px)
-	.header-content ,.services__block ,.contacts
+	h2
+		font-size: 24px
+	.services__block
+		padding: 13px 13px 8px
+		.btn
+			margin: auto auto 8px
+			display: block
+	.header-content ,.contacts
 		.btn
 			display: block
 			max-width: 250px
@@ -310,7 +317,6 @@
 		h1
 			font-size: 24px
 	.company
-		padding-top: 50px
 		h2
 			font-size: 24px
 		&__item
@@ -320,15 +326,14 @@
 	.contacts
 		.form
 			margin: 100px auto 0
-			width: 300px
 			padding: 40px 15px
 	.footer
 
 		.triangle
 			display: none
 	.about, .competence ,.company__title ,.services__container
-		padding-top: 35px
-		padding-bottom: 25px
+		padding-top: 0
+		padding-bottom: 35px
 	.contacts
 		min-height: 500px
 	.about,

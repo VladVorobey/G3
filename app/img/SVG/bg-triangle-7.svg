@@ -1,67 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="470" height="700" viewBox="0 0 470 700">
-  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
-<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
-   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-      <rdf:Description rdf:about=""/>
-   </rdf:RDF>
-</x:xmpmeta>
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                           
-<?xpacket end="w"?></metadata>
-<defs>
-    <style>
-      .cls-1 {
-        fill: none;
-        stroke: #3295fe;
-        stroke-width: 1px;
-        opacity: 0.25;
-      }
-
-      .cls-1, .cls-2, .cls-3 {
-        fill-rule: evenodd;
-      }
-
-      .cls-2 {
-        fill: #4ca1fc;
-      }
-
-      .cls-3 {
-        fill: #3192fd;
-        opacity: 0.8;
-        filter: url(#filter);
-      }
-    </style>
-    <filter id="filter" x="-30" y="0.094" width="811" height="763.906" filterUnits="userSpaceOnUse">
-      <feOffset result="offset" dy="100" in="SourceAlpha"/>
-      <feGaussianBlur result="blur" stdDeviation="10"/>
-      <feFlood result="flood" flood-color="#3295fe" flood-opacity="0.12"/>
-      <feComposite result="composite" operator="in" in2="blur"/>
-      <feBlend result="blend" in="SourceGraphic"/>
-      <feImage preserveAspectRatio="none" x="69.2813" y="0.09375" width="611.469" height="563.812" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNjExLjQ2OSIgaGVpZ2h0PSI1NjMuODEyIiB2aWV3Qm94PSIwIDAgNjExLjQ2OSA1NjMuODEyIj4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBmaWxsOiB1cmwoI2xpbmVhci1ncmFkaWVudCk7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeDE9IjMwNS43MzQiIHkxPSI1NjMuODEyIiB4Mj0iMzA1LjczNCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmN2ZiZmYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjk5MiIgc3RvcC1jb2xvcj0iI2ZmZiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZmYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IGNsYXNzPSJjbHMtMSIgd2lkdGg9IjYxMS40NjkiIGhlaWdodD0iNTYzLjgxMiIvPgo8L3N2Zz4K"/>
-      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
-      <feBlend result="blend-2" in2="blend"/>
-    </filter>
-  </defs>
-  <path id="Фигура_4_копия_25" data-name="Фигура 4 копия 25" class="cls-1" d="M575,330.232L507.47,616.119C457.733,723.278,352.142,634.4,352.142,634.4L95.419,395.928c-76.875-106.3,38.412-131.509,38.412-131.509l321.693-39.41c117.442,2.58,119.482,101.4,119.482,101.4Z"/>
-  <path id="Фигура_4_копия_24" data-name="Фигура 4 копия 24" class="cls-2" d="M203.114,507.474l42.954,3.024c16.674,4.664,6.3,22.02,6.3,22.02l-28.471,42.723c-13.573,13.616-19.931-2.453-19.931-2.453L190.7,527.221c-2.387-17.035,11.864-19.658,11.864-19.658Z"/>
-  <path id="Фигура_4_копия_25-2" data-name="Фигура 4 копия 25" class="cls-3" d="M680.534,126.822L583.009,492.828c-66.055,138.552-188.622,31.827-188.622,31.827L97.638,236.806C10.726,106.4,151.375,68.031,151.375,68.031L542.11,0.158c141.7-3.279,138.645,121.823,138.645,121.823Z"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 470 700" style="enable-background:new 0 0 470 700;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.25;fill:none;stroke:#3295FE;enable-background:new    ;}
+	.st1{fill:#4CA1FC;}
+	.st2{opacity:0.8;fill:#3192FD;enable-background:new    ;}
+</style>
+<path id="Фигура_4_копия_25" class="st0" d="M575,330.2l-67.5,285.9c-49.7,107.2-155.3,18.3-155.3,18.3L95.4,395.9
+	c-76.9-106.3,38.4-131.5,38.4-131.5L455.5,225C573,227.6,575,326.4,575,326.4L575,330.2z"/>
+<path id="Фигура_4_копия_24" class="st1" d="M203.1,507.5l43,3c16.7,4.7,6.3,22,6.3,22l-28.5,42.7
+	c-13.6,13.6-19.9-2.5-19.9-2.5l-13.3-45.6c-2.4-17,11.9-19.7,11.9-19.7L203.1,507.5z"/>
+<path id="Фигура_4_копия_25-2" class="st2" d="M680.5,126.8l-97.5,366c-66.1,138.6-188.6,31.8-188.6,31.8L97.6,236.8
+	C10.7,106.4,151.4,68,151.4,68L542.1,0.2C683.8-3.1,680.8,122,680.8,122L680.5,126.8z"/>
 </svg>

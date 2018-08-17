@@ -1,62 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="600" viewBox="0 0 300 600">
-  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
-<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
-   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-      <rdf:Description rdf:about=""/>
-   </rdf:RDF>
-</x:xmpmeta>
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                           
-<?xpacket end="w"?></metadata>
-<defs>
-    <style>
-      .cls-1 {
-        fill: none;
-        stroke: #3295fe;
-        stroke-width: 1px;
-        opacity: 0.25;
-      }
-
-      .cls-1, .cls-2 {
-        fill-rule: evenodd;
-      }
-
-      .cls-2 {
-        fill: #3192fd;
-        opacity: 0.8;
-        filter: url(#filter);
-      }
-    </style>
-    <filter id="filter" x="-80" y="-86" width="824" height="754" filterUnits="userSpaceOnUse">
-      <feOffset result="offset" dy="100" in="SourceAlpha"/>
-      <feGaussianBlur result="blur" stdDeviation="10"/>
-      <feFlood result="flood" flood-color="#3295fe" flood-opacity="0.12"/>
-      <feComposite result="composite" operator="in" in2="blur"/>
-      <feBlend result="blend" in="SourceGraphic"/>
-      <feImage preserveAspectRatio="none" x="19" y="-86" width="625" height="554" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNjI1IiBoZWlnaHQ9IjU1NCIgdmlld0JveD0iMCAwIDYyNSA1NTQiPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuY2xzLTEgewogICAgICAgIGZpbGw6IHVybCgjbGluZWFyLWdyYWRpZW50KTsKICAgICAgfQogICAgPC9zdHlsZT4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB4MT0iMzEyLjUiIHkxPSI1NTQiIHgyPSIzMTIuNSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmN2ZiZmYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjk5MiIgc3RvcC1jb2xvcj0iI2ZmZiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZmYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IGNsYXNzPSJjbHMtMSIgd2lkdGg9IjYyNSIgaGVpZ2h0PSI1NTQiLz4KPC9zdmc+Cg=="/>
-      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
-      <feBlend result="blend-2" in2="blend"/>
-    </filter>
-  </defs>
-  <path id="Фигура_4_копия_2" data-name="Фигура 4 копия 2" class="cls-1" d="M559.806,231.8l91.252,279.351c13.366,117.409-122.992,96.384-122.992,96.384L184.881,537.293c-120.933-50.842-35.707-132.324-35.707-132.324L403.091,204.033c101.534-58.861,154.731,24.5,154.731,24.5Z"/>
-  <path id="Фигура_4_копия" data-name="Фигура 4 копия" class="cls-2" d="M535.72-22.531L642.93,340.756c15.7,152.686-144.5,125.344-144.5,125.344l-403.2-91.353C-46.854,308.629,53.276,202.664,53.276,202.664L351.6-58.647c119.29-76.547,181.79,31.867,181.79,31.867Z"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 600" style="enable-background:new 0 0 300 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.25;fill:none;stroke:#3295FE;enable-background:new    ;}
+	.st1{opacity:0.8;fill:#3192FD;enable-background:new    ;}
+</style>
+<path id="Фигура_4_копия_2" class="st0" d="M559.8,231.8l91.3,279.4c13.4,117.4-123,96.4-123,96.4l-343.2-70.2
+	C63.9,486.5,149.2,405,149.2,405L403.1,204c101.5-58.9,154.7,24.5,154.7,24.5L559.8,231.8z"/>
+<path id="Фигура_4_копия" class="st1" d="M535.7-22.5l107.2,363.3c15.7,152.7-144.5,125.3-144.5,125.3L95.2,374.7
+	c-142.1-66.1-42-172.1-42-172.1L351.6-58.6c119.3-76.5,181.8,31.9,181.8,31.9L535.7-22.5z"/>
 </svg>

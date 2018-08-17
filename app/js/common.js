@@ -1,19 +1,19 @@
 $(function() {
 
 //-------------------about-slider----------------------
-  var _slidesPerView = 2;
-
-  if (window.innerWidth < 767)
-      _slidesPerView = 1;
-
   var swiper = new Swiper('.about__slider', {
-      slidesPerView: _slidesPerView,
+      slidesPerView: 2,
       slidesPerColumn: 2,
       spaceBetween: 30,
       navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
       },
+      breakpoints: {
+          767: {
+              slidesPerView: 1
+          }
+      }
   });
 
 //------------------------------гамбургер-----------------------------
@@ -92,10 +92,10 @@ $(function() {
           top = $(id).offset().top;
       $('body,html').animate({scrollTop: top - 60}, 'slow', 'swing');
   //--------------------закриття меню при кліку на ссилку якоря--------------------
-  //    $('.hamburger').removeClass('hamburger-active');
-  //    $('.header-menu').removeClass('header-menu');
-  //    $('.header-active').removeClass('header-active');
-  //    $('.nav-active').removeClass('nav-active');
+     $('.hamburger').removeClass('hamburger-active');
+     $('.header-menu').removeClass('header-menu');
+     // $('.header-active').removeClass('header-active');
+     $('.nav-active').removeClass('nav-active');
 
   });
 $(".footer__nav").on("click","a", function (event) {

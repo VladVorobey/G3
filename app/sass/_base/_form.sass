@@ -1,11 +1,10 @@
 .form
 	label.error
-		position: absolute
-		top: -20px
-		right: 0
-		left: 0
+		margin: 0 auto
 		transition: all .3s
 		animation: error .3s linear 1 forwards
 		color: red
 		text-align: center
-		font-weight: 600
+	input[type="text"]::placeholder,
+	input[type="tel"]::placeholder
+		line-height: 28px
